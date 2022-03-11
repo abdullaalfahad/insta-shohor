@@ -57,8 +57,8 @@
             <h1>Reported posts</h1>
         </div>
     </main>
-    <section class="container my-5">
-        <div>
+    <section id="extra-question" class="container my-5">
+        <div class="mb-2">
             <h6>Q1: How does javaScript works?</h6>
             <p>
                 Answer: Before writing about how js works on the inside, let's have a look at how it works. The Document
@@ -82,6 +82,20 @@
                 updates
                 the DOM, which is then rendered by the browser. It's crucial to keep things in this sequence. The DOM
                 elements could not be changed if the JavaScript did not wait for the HTML and CSS to finish.
+            </p>
+        </div>
+        <div class="">
+            <h6>Q2: Difference between localStorage and sessionStorage?</h6>
+            <p>
+                Answer: To store key/value pairs, utilize the localStorage or sessionStorage objects. You can interact
+                with the items in localStorage using several methods.
+                Only localStorage has a different expiration period, whereas sessionStorage will only be accessed while
+                and by the window that created it is open.
+                localStorage is persistent until you or the user erase it.
+                For examples, if you wanted to save a login username and password, you'd want to use sessionStorage
+                rather than localStorage for security reasons.
+                However, you'd probably want to use localStorage if you wanted to save a user's settings on their
+                workstation.
             </p>
         </div>
     </section>
